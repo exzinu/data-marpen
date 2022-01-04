@@ -7,7 +7,7 @@
 
   $koneksi = mysqli_connect($server, $user, $password, $database) or die (mysqli_error($koneksi));
 
-  //jika tombo simpan di klik
+  //jika tomb simpan di klik
   if(isset($_POST['bsimpan']))
   {
     //pengujian apakah data dapat diedit atau disimpan baru
